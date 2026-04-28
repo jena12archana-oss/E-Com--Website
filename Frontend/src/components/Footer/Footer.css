@@ -1,0 +1,195 @@
+/* Delivery Images Section */
+.delivery-container {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 100px;
+  flex-wrap: wrap;
+}
+
+/* Footer Main */
+footer {
+  background-color: #4bff4b1e;
+  color: #008000;
+  font-size: 16px;
+  padding-top: -5px;
+}
+
+footer * {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+
+/* Rows */
+.row {
+  padding: 2em 1em;
+}
+
+/* Primary Row */
+.row.primary {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  align-items: stretch;
+  margin-top: 40px;
+}
+
+/* Columns */
+.column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 2em;
+  min-height: 15em;
+}
+
+/* Headings */
+.footer-heading {
+  margin-bottom: 10px;
+  font-size: 30px;
+  width: 100%;
+  text-align: left;
+  color: #008000;
+  white-space: nowrap;
+}
+
+/* About Section */
+.about p {
+  text-align: justify;
+  line-height: 2;
+  margin: 0;
+}
+
+/* Links Section */
+.links ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+.links li {
+  margin-bottom: 8px;
+}
+
+.links li:not(:first-child) {
+  margin-top: 0.8em;
+}
+
+.links ul li a {
+  color: #008000;
+  text-decoration: none;
+}
+
+.links ul li a:hover {
+  color: #008000;
+}
+
+/* Subscribe Section */
+.subscribe input,
+.subscribe button {
+  font-size: 1em;
+  padding: 1em;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.subscribe input {
+  border: 1px solid #ccc;
+}
+
+.subscribe button {
+  background-color: #008000;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.subscribe button:hover {
+  background-color: #006400;
+}
+
+/* Social */
+div.social {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2.4em;
+  flex-direction: row;
+  margin-top: 0.5em;
+}
+
+.social i:hover {
+  color: #008000;
+}
+
+/* Secondary Row */
+.row.secondary {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.row.secondary i {
+  font-size: 1.8em;
+  color: #000000;
+}
+
+.row.secondary div {
+  padding: 1em 0;
+  width: 100%;
+}
+
+.row.secondary div:hover {
+  background-color: #27892749;
+}
+
+/* Icon spacing */
+.icon-space {
+  margin-bottom: 10px;
+}
+
+/* Copyright */
+.copyright {
+  padding: 0.3em 1em;
+  background-color: #2789278b;
+  color: #000000;
+}
+
+.copyright p {
+  font-size: 0.9em;
+  text-align: center;
+  padding: 15px 0;
+  margin: 0;
+}
+
+/* Optional Image Container */
+.image-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.images {
+  cursor: pointer;
+  width: 300px;
+  height: 300px;
+  margin-top: 6px;
+  margin-left: 2px;
+}
+
+/* Responsive */
+@media screen and (max-width: 850px) {
+  .row.primary {
+    grid-template-columns: 1fr;
+  }
+
+  .row.secondary {
+    flex-direction: column;
+  }
+
+  .delivery-container {
+    gap: 30px;
+  }
+}
