@@ -1,0 +1,99 @@
+.p-page {
+  width: 96%;
+  margin-left: 30px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 80px;
+  justify-content: space-between;
+}
+
+.p-plants {
+  width: 50%;
+}
+
+#pt-2 {
+  margin-left: 12px;
+}
+
+#pt-3 {
+  margin-left: 8px;
+}
+
+.p-plant1,
+.p-plant2,
+.p-plant3 {
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+.p-descp {
+  width: 400px;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+
+.p-about {
+  margin: 20px;
+  font-size: 20px;
+  color: rgb(33, 227, 33);
+}
+
+.p-keep {
+  font-weight: lighter;
+  margin: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  margin-top: -20px;
+  font-size: 36px;
+}
+
+.p-instructions {
+  color: gray;
+  margin: 20px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.p-your {
+  margin-left: 20px;
+  margin-top: -25px;
+  font-size: 46px;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+}
+
+.p-green-bg1,
+.p-green-bg2,
+.p-green-bg3 {
+  width: 460px;
+  height: 130px;
+  background-color: rgb(33, 227, 33);
+  color: white;
+  padding: 30px;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 1s;
+}
+
+.p-flex1 {
+  width: 100%;
+  display: flex;
+  gap: 50px;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.p-green-bg1:hover,
+.p-green-bg2:hover,
+.p-green-bg3:hover {
+  width: 465px;
+  box-shadow: 3px 3px 3px 3px lightgray;
+  background: linear-gradient(
+    to right,
+    rgb(182, 244, 146),
+    rgb(51, 139, 147)
+  );
+}
